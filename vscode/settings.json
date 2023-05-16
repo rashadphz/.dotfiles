@@ -1,1 +1,252 @@
-/Users/rashad/Library/Application Support/Code/User/settings.json
+{
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 15,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.minimap.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "JetBrains Mono, Cascadia Mono PL, CaskaydiaCove Nerd Font",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["-l"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "maven.terminal.customEnv": [],
+  "workbench.sideBar.location": "right",
+  "prettier.printWidth": 70,
+  "prettier.proseWrap": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "java.debug.settings.showStaticVariables": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.inlineSuggest.enabled": true,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "keyboard.dispatch": "keyCode",
+  //--------------------------------------------------------------------------------
+  // VIM
+  //--------------------------------------------------------------------------------
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<tab>"],
+      "after": ["g", "t"]
+    },
+    {
+      "before": ["<S-tab>"],
+      "after": ["g", "T"]
+    },
+    {
+      "before": ["K"],
+      "after": ["g", "h"]
+    },
+    {
+      "before": ["<leader>", "r", "n"],
+      "commands": ["editor.action.rename"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "s", "v"],
+      "commands": [":vsplit"]
+    },
+    {
+      "before": ["<leader>", "s", "h"],
+      "commands": [":hsplit"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    },
+    {
+      "before": ["Z", "Z"],
+      "commands": [":q!"]
+    },
+    //jump to explorer like nerdtree
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["u"],
+      "commands": ["undo"]
+    },
+    {
+      "before": ["<C-r>"],
+      "commands": ["redo"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    },
+    //paste without overriding current register
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+  "vim.sneak": true,
+  "vim.easymotion": true,
+  "vim.leader": "<space>",
+  "workbench.list.keyboardNavigation": "simple",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "terminal.integrated.fontSize": 15,
+  "editor.accessibilitySupport": "off",
+  "C_Cpp.updateChannel": "Insiders",
+  "editor.formatOnSave": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.gdefault": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "vim.shell": "/opt/homebrew/bin/fish",
+  "editor.cursorBlinking": "phase",
+  "markdown.preview.typographer": true,
+  "leetcode.workspaceFolder": "/Users/rashad/Documents/leetcode",
+  "leetcode.defaultLanguage": "python3",
+  "workbench.tree.indent": 4,
+  "editor.detectIndentation": false,
+  "errorLens.enabledDiagnosticLevels": ["info", "error"],
+  "explorer.confirmDelete": false,
+  "[ocaml.ocamllex]": {
+    "editor.defaultFormatter": "ocamllabs.ocaml-platform"
+  },
+  "[ocaml]": {
+    "editor.defaultFormatter": "ocamllabs.ocaml-platform"
+  },
+  "editor.fontWeight": "normal",
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.renderColons": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "zenMode.fullScreen": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "telemetry.telemetryLevel": "off",
+  "editor.inlayHints.fontFamily": "Cascadia Mono PL",
+  "vim.smartRelativeLine": true,
+  "vim.useCtrlKeys": true,
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-u>": true
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4}",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.formatting.provider": "black",
+  "workbench.colorCustomizations": {},
+  "diffEditor.ignoreTrimWhitespace": false,
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "ruby": true
+  },
+  "github.copilot.advanced": {
+    "github.copilot.inlineSuggest.enable": true
+  },
+  "java.import.gradle.java.home": "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home",
+  "customizeUI.activityBar": "bottom",
+  "customizeUI.activityBarHideSettings": true,
+  "customizeUI.titleBar": "frameless",
+  "customizeUI.stylesheet": {
+    ".decorationsOverviewRuler": "opacity: 0 !important;",
+    ".scroll-decoration": "opacity: 0 !important;",
+    ".editor-instance": "margin-top: 4rem !important;",
+    ".margin": "transform: translateX(-2rem) !important;",
+    ".title.show-file-icons": "display: none !important;"
+  },
+  "swift.backgroundCompilation": true,
+  "sourcekit-lsp.serverPath": "/usr/bin/sourcekit-lsp",
+  "haskell.manageHLS": "GHCup",
+  "zenMode.hideTabs": false,
+  "workbench.panel.defaultLocation": "right",
+  "editor.wordWrap": "wordWrapColumn",
+  "python.defaultInterpreterPath": "/Users/rashad/Documents/texas/spring23/swe/idb/cs373-idb-09/back-end/venv",
+  "workbench.editor.centeredLayoutAutoResize": false,
+  "editor.smoothScrolling": true,
+  "zenMode.centerLayout": false,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "errorLens.excludeBySource": ["ts(2322)"],
+  "files.associations": {
+    ".django": "plaintext"
+  },
+  "explorer.excludeGitIgnore": true,
+  "[ruby]": {
+    "editor.defaultFormatter": "misogi.ruby-rubocop",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.semanticHighlighting.enabled": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.rulers": [120],
+  "rubyLsp.rubyVersionManager": "rbenv",
+  "errorLens.enabled": false,
+  "totalTypeScript.hiddenTips": [
+    "type-alias-declaration",
+    "basic-types"
+  ],
+  "totalTypeScript.hideAllTips": true,
+  "search.useIgnoreFiles": false
+}
